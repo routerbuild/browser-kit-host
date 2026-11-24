@@ -13,5 +13,6 @@ browser_kit pins each zip's SHA-256 and size. It refuses a download that
 doesn't match them, and it runs nothing from the zip before that check
 passes. The host is signed ad hoc, not notarized.
 
-CEF is under a BSD license and Chromium under its own licenses. The licenses
-are inside each zip, in `Chromium Embedded Framework.framework/Resources`.
+CEF is under a BSD license, and Chromium and the code it includes are under
+their own licenses. Each release has them next to the zips: `LICENSE.txt`
+(CEF) and `CREDITS.html` (Chromium and its third-party code).
